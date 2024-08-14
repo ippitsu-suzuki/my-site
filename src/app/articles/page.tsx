@@ -7,9 +7,12 @@ export default function Home() {
       <Header />
       <div className="md:container mx-5 md:mx-auto mt-10 flex flex-col">
         <div className="w-20 h-20 text-[32px] bg-white bg-opacity-10 rounded-full flex items-center justify-center">
-          🐙
+          🗞️
         </div>
-        <h1 className="font-bold text-[64px] text-[#EF9A9A] mb-10">Ippitsu Suzuki</h1>
+        <div className="flex flex-col md:flex-row md:items-center mb-10">
+            <h1 className="font-bold text-[64px] text-[#EF9A9A]">Articles</h1>
+            <p className="text-xl opacity-50 font-bold ml-2.5">on Zenn</p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           <div className="bg-white bg-opacity-10 p-5 shadow rounded">
             <p className="text-xs opacity-50">20XX/XX/XX</p>
