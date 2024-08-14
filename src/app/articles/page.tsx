@@ -1,4 +1,5 @@
 "use client"
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 export default function Home() {
@@ -9,10 +10,7 @@ export default function Home() {
         <div className="w-20 h-20 text-[32px] bg-white bg-opacity-10 rounded-full flex items-center justify-center">
           🗞️
         </div>
-        <div className="flex flex-col md:flex-row md:items-center mb-10">
-            <h1 className="font-bold text-[64px] text-[#EF9A9A]">Articles</h1>
-            <p className="text-xl opacity-50 font-bold ml-2.5">on Zenn</p>
-        </div>
+        <h1 className="font-bold text-[64px] text-[#EF9A9A] mb-10">Articles</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           <div className="bg-white bg-opacity-10 p-5 shadow rounded">
             <p className="text-xs opacity-50">20XX/XX/XX</p>
@@ -43,6 +41,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   )
 }
