@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import { db } from "@/lib/firebaseConfig";
 import { collection, addDoc } from "firebase/firestore";
 import Footer from "@/components/Footer";
+import { FaPaperPlane } from "react-icons/fa";
 
 export default function Home() {
   const [subject, setSubject] = useState("");
@@ -69,9 +70,10 @@ export default function Home() {
           <div className="ml-auto">
             <button
               onClick={handleSubmit}
-              className="rounded-full text-[#1e1e1e] font-bold bg-[#EF9A9A] py-2.5 px-3.5"
+              className="rounded-full text-[#1e1e1e] font-bold bg-[#EF9A9A] py-2.5 px-3.5 flex items-center"
             >
               Submit
+              <FaPaperPlane className="ml-2.5" />
             </button>
           </div>
         </div>

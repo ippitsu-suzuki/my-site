@@ -26,9 +26,8 @@ export default function Header() {
                         />
                     </div>
                     <div className="flex flex-col space-y-5 text-sm pb-2.5">
-                        <Link href="/about_me" className="ml-5 hover:text-[#EF9A9A] transition-colors duration-200">About Me</Link>
+                        <Link href="/about" className="ml-5 hover:text-[#EF9A9A] transition-colors duration-200">About Me</Link>
                         <Link href="/articles" className="ml-5 hover:text-[#EF9A9A] transition-colors duration-200">Articles</Link>
-                        <Link href="/blog" className="ml-5 hover:text-[#EF9A9A] transition-colors duration-200">Blog</Link>
                         <Link href="/contact" className="ml-5 hover:text-[#EF9A9A] transition-colors duration-200">Contact</Link>
                         <div className="flex justify-center space-x-5 text-xl opacity-50">
                             <Link href="https://github.com/ippitsu-suzuki" target="blank"><FaGithub /></Link>
@@ -46,9 +45,8 @@ export default function Header() {
                     />
                 </div>
                 <div className="space-x-5 text-sm items-center flex">
-                    <Link href="/about_me" className="hover:text-[#EF9A9A] transition-colors duration-200">About Me</Link>
+                    <Link href="/about" className="hover:text-[#EF9A9A] transition-colors duration-200">About Me</Link>
                     <Link href="/articles" className="hover:text-[#EF9A9A] transition-colors duration-200">Articles</Link>
-                    <Link href="/blog" className="hover:text-[#EF9A9A] transition-colors duration-200">Blog</Link>
                     <Link href="/contact" className="hover:text-[#EF9A9A] transition-colors duration-200">Contact</Link>
                 </div>
                 <div className="flex text-xl space-x-5 opacity-50 items-center">

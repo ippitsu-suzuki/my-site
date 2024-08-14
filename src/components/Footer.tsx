@@ -21,7 +21,8 @@ const Footer = () => {
           <h2 className="text-lg font-bold mb-5">Navigation</h2>
           <ul className='space-y-2.5 opacity-75'>
             <li><Link href="/" className="hover:underline">Home</Link></li>
-            <li><Link href="/about_me" className="hover:underline">About Me</Link></li>
+            <li><Link href="/about" className="hover:underline">About Me</Link></li>
+            <li><Link href="/articles" className="hover:underline">Articles</Link></li>
             <li><Link href="/contact" className="hover:underline">Contact</Link></li>
           </ul>
         </div>
